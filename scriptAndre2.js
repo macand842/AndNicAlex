@@ -12,3 +12,4 @@ while (num > 0) {
 
 // Display the sum in the document
 document.write(`The sum of digits in ${number} is: ${sum}`);
+// comment
