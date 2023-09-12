@@ -1,0 +1,11 @@
+.center{
+    text-align: center;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.input{
+    margin:5px;
+}
