@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Beregn gennemsnitligt antal slag</h1>
+
+    <label for="dice1">Første Terning:</label>
+    <input type="number" id="terning1" min="1" max="6"><br>
+
+    <label for="dice2">Anden Terning:</label>
+    <input type="number" id="terning2" min="1" max="6"><br>
+
+    <label for="attempts">Antal Forsøg:</label>
+    <input type="number" id="antalForsøg" min="1"><br>
+
+    <button onclick="beregnGennemsnit()">Beregn Gennemsnit</button>
+
+    <p>Gennemsnitligt antal slag: <span id="result"></span></p>
+
+    <script src="script5.js"></script>
+</body>
+</html>
