@@ -14,5 +14,6 @@ function generatePattern() {
       pattern += "<br>"; // Add a line break for the next row
     }
   
+    
     patternDiv.innerHTML = pattern;
   }
