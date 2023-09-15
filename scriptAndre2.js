@@ -7,7 +7,7 @@ let sum = 0;
 while (num > 0) {
     const digit = num % 10; // Get the last digit
     sum += digit; // Add the digit to the sum
-     num = Math.floor(num / 10); // Remove the last digit
+    num = Math.floor(num / 10); // Remove the last digit
 }
 
 // Display the sum in the document
